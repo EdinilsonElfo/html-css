@@ -11,20 +11,23 @@ body {
 main {
     max-width: 800px;
     margin: auto;
-    background-color: #ffffffaa;
+    background-color: white;
     padding: 18px;
     border-radius: 8px;
     box-shadow: 3px 5px 15px #00000066;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    color: #40342A;
     text-align: justify;
 }
 
-h1, h2{
+h1 {
     text-align: center;
-    text-shadow: 1px 2px 1px #00000066;
+    text-shadow: 1px 2px 2px #00000040;
+}
+
+h2 {
+    text-align: center;
 }
 
 code {
