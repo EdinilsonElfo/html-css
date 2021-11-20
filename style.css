@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom, #F2CEAE, #F2DFBB);
+    background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 800px;
+    margin: auto;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffffaa;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 3px 5px 15px #00000066;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #40342A;
+    text-align: justify;
+}
+
+h1, h2{
+    text-align: center;
+    text-shadow: 1px 2px 1px #00000066;
+}
+
+code {
+    background-color: #F2CEAE88;
+}
+
+mark {
+    background-color: #C5FFB5;
+}
+
+img, video, iframe {
+    max-width: 100%;
+    max-width: 100%;
+}
+
+/* Paleta 2 */
+/* Color Theme Swatches in Hex */
+.Eté-2021-1-hex { color: #594A1C; }
+.Eté-2021-2-hex { color: #F2DFBB; }
+.Eté-2021-3-hex { color: #40342A; }
+.Eté-2021-4-hex { color: #F2CEAE; }
+.Eté-2021-5-hex { color: #736356; }
+
+/* Paleta 1 */
+/* Color Theme Swatches in Hex */
+.Pastels-1-hex { color: #FFEADE; }
+.Pastels-2-hex { color: #E8C4B0; }
+.Pastels-3-hex { color: #FFE0CF; }
+.Pastels-4-hex { color: #E8AD8C; }
+.Pastels-5-hex { color: #FFE8DB; }
