@@ -22,10 +22,6 @@ main {
     box-shadow: 3px 5px 15px #00000066;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    text-align: justify;
-}
-
 h1 {
     font: italic bold 3em 'Dancing Script', 'Brush Script MT', cursive;
     text-align: center;
@@ -34,10 +30,6 @@ h1 {
 
 h2 {
     text-align: center;
-}
-
-p {
-    text-indent: 2em;
 }
 
 code {
