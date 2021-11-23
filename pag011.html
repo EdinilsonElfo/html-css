@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        @font-face {
+            font-family: 'Dancing Script';
+            src: url('fonts/DancingScript.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000d;
+            margin: auto;
+        }
+        h1 {
+            font: italic bold 3em 'Dancing Script', 'Brush Script MT', cursive;
+            margin: auto;
+            padding: 10px;
+        }
+
+        nav > ul {
+            list-style-type: none;
+            margin: auto;
+            padding: 10px;
+            vertical-align: middle;
+            background-color: #A1E6D1;
+        }
+        nav > ul > li {
+            display: inline;
+            padding: 10px 16x;
+        }
+        nav > ul > li > a {
+            color: #000d;
+            font-weight: bold;
+            text-decoration: none;
+            height: 10px;
+            padding: 10px 16px;
+        }
+        nav > ul > li > a:hover {
+            background-color: #95E6A0;
+            color: #fffd;
+        }
+        
+        header {
+            background-image: url(arquivos/paisagem1.jpg);
+            box-shadow: 1px 4px 10px #0004;
+            text-align: center;
+        }
+
+        main {
+            background-color: #fffd;
+            padding: 10px;
+            margin: 10px auto;
+            max-width: 900px;
+            box-shadow: 1px 4px 10px #0004;
+            border-radius: 4px;
+        }
+        section {
+            padding: 10px;
+        }
+        article {
+            border: 2px solid;
+            padding: 5px 20px 15px;
+            margin: 10px auto;
+        }
+        aside {
+            text-align: right;
+        }
+
+
+        footer {
+            text-align: center;
+            background-color: #A1E6D1;
+            box-shadow: 1px 4px 10px #0004;
+            padding: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Teste</h1>
+        <nav>
+            <ul>
+                <li><a href="pag010.html" target="_self" rel="prev">Página anterior</a></li>
+                <li><a href="index.html" target="_self" rel="prev">Index</a></li>
+                <li><a href="pag012.html" target="_self" rel="next">Próxima página</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Grouping Tags</h2>
+            <article>
+                <h3>Artigo 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae numquam similique voluptate accusantium incidunt maiores quo, earum aliquam commodi cupiditate distinctio sint? Odit cumque libero magnam natus autem sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt reprehenderit totam explicabo hic voluptatem aperiam modi possimus nemo non fugit numquam enim tempore, voluptatum eligendi porro nobis architecto ipsum praesentium.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus veniam, nisi itaque qui voluptatum iure at minima, ad delectus quis temporibus, impedit aperiam nostrum maxime praesentium consequuntur. Itaque, beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolore optio cumque sint nulla. Natus porro dolorum modi, nam consectetur, fuga nihil harum iure corporis nobis veniam cupiditate exercitationem error.</p>
+            </article>
+            <article>
+                <h3>Artigo 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, animi. Maxime animi eveniet veritatis hic, quibusdam officia eius laboriosam magni debitis sed. Pariatur laborum est a architecto nostrum fuga rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quas laborum nemo unde cupiditate explicabo quod est expedita totam mollitia vero? Mollitia velit itaque repellat eius nihil laborum aspernatur! Deserunt?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, tempore? Ipsum sint in deserunt minima? Labore molestiae et voluptate distinctio consectetur excepturi magni possimus nostrum suscipit, beatae cupiditate repellendus hic.</p>
+                <aside>
+                    <p>Aside do Artigo 2</p>
+                </aside>
+            </article>
+        <aside>
+            <p>Aside da Seção</p>
+        </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvideo por EdinilsonElfo</p>
+    </footer>
+</body>
+</html>
