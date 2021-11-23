@@ -29,24 +29,26 @@
         nav > ul {
             list-style-type: none;
             margin: auto;
-            padding: 10px 0px;
-            vertical-align: middle;
+            height: 37px;
             background-color: #A1E6D1;
+            padding: 0;
+            align-items: center;
         }
         nav > ul > li {
-            display: inline;
-            padding: 10px 16x;
+            display: inline-block;
+            padding: 10px 0;
         }
         nav > ul > li > a {
             color: #000d;
             font-weight: bold;
             text-decoration: none;
-            height: 10px;
-            padding: 10px 16px;
+            padding: 10px;
+            transition-duration: 0.15s;
         }
         nav > ul > li > a:hover {
-            background-color: #95E6A0;
+            background-color: #7dda89;
             color: #fffd;
+            border-radius: 4px;
         }
         
         header {
@@ -80,7 +82,11 @@
             text-align: center;
             background-color: #A1E6D1;
             box-shadow: 1px 4px 10px #0004;
-            padding: 1px;
+            padding: 12px 0;
+        }
+        footer > p {
+            font-size: 0.9em;
+            margin: 0px;
         }
     </style>
 </head>
@@ -89,9 +95,9 @@
         <h1>Teste</h1>
         <nav>
             <ul>
-                <li><a href="pag010.html" target="_self" rel="prev">Página anterior</a></li>
-                <li><a href="index.html" target="_self" rel="prev">Index</a></li>
-                <li><a href="pag012.html" target="_self" rel="next">Próxima página</a></li>
+                <li><a href="pag010.html" target="_self" rel="prev">Página anterior</a>
+                <li><a href="index.html" target="_self" rel="prev">Página inicial</a>
+                <li><a href="#pag012.html" target="_self" rel="next">Próxima página</a>
             </ul>
         </nav>
     </header>
@@ -117,7 +123,7 @@
         </section>
     </main>
     <footer>
-        <p>Desenvolvideo por EdinilsonElfo</p>
+        <p>Desenvolvido por EdinilsonElfo</p>
     </footer>
 </body>
 </html>
