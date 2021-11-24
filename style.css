@@ -10,7 +10,7 @@ body {
     background-image: linear-gradient(to bottom, #F2CEAE, #F2DFBB);
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
-    color: #444444;
+    color: #444;
     max-width: 900px;
     margin: auto;
 }
@@ -20,13 +20,13 @@ main {
     background-color: white;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 2px 5px 20px #00000033;
+    box-shadow: 2px 5px 20px #0003;
 }
 
 h1 {
     font: italic bold 3em 'Dancing Script', 'Brush Script MT', cursive;
     text-align: center;
-    text-shadow: 1px 2px 2px #00000040;
+    text-shadow: 1px 2px 2px #0004;
 }
 
 h2 {
